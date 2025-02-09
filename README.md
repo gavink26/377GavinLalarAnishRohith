@@ -10,6 +10,7 @@ Your files should look like this if you did it all correctly.
 
 
 Code for activity 3 steps 3 & 6, and activity 4 project code
+
 Welcome02_List.java output (Step 3 for creating third Observation object)
 
 ![image](https://github.com/user-attachments/assets/957f421c-4c1a-40b1-b847-98a56dae65ef)
