@@ -31,7 +31,7 @@ class PlayerGameStats {
 
 public class LeBronStats {
     public static void main(String[] args) {
-        List<PlayerGameStats> lebronStats = readCSV("src/lebron_career.csv");
+        ArrayList<PlayerGameStats> lebronStats = readCSV("src/lebron_career.csv");
 
        
         Map<String, Double> averages = calculateAverages(lebronStats);
@@ -42,8 +42,8 @@ public class LeBronStats {
         showLineChart(lebronStats);
     }
 
-    public static List<PlayerGameStats> readCSV(String filename) {
-        List<PlayerGameStats> statsList = new ArrayList<>();
+    public static ArrayList<PlayerGameStats> readCSV(String filename) {
+        ArrayList<PlayerGameStats> statsList = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
             String line = br.readLine(); 
             while ((line = br.readLine()) != null) {
@@ -80,7 +80,7 @@ public class LeBronStats {
         return statsList;
     }
 
-    public static Map<String, Double> calculateAverages(List<PlayerGameStats> stats) {
+    public static Map<String, Double> calculateAverages(ArrayList<PlayerGameStats> stats) {
         double totalPoints = 0, totalRebounds = 0, totalAssists = 0, totalSteals = 0, totalBlocks = 0;
         double totalTurnovers = 0, totalFGMade = 0, totalFGAttempted = 0, totalThreeMade = 0, totalThreeAttempted = 0;
         double totalFTMade = 0, totalFTAttempted = 0, totalPlusMinus = 0, totalGameScore = 0;
@@ -147,7 +147,7 @@ public class LeBronStats {
         frame.setVisible(true);
     }
 
-    public static void showLineChart(List<PlayerGameStats> stats) {
+    public static void showLineChart(ArrayList<PlayerGameStats> stats) {
         XYSeries series = new XYSeries("Field Goal % over Games");
         for (int i = 0; i < stats.size(); i++) {
             double fgPercent = (stats.get(i).fgMade / stats.get(i).fgAttempted) * 100;
