@@ -1,11 +1,15 @@
 # 377GavinLalarAnishRohith
-Code for activity 3 steps 3 & 6, and activity 4 project code
+By Gavin, Rohith, Anish, and Lalar
+This project analyzes the career statistics of Lebron James, and also plots visible data for his career averages and FG% over time.
 
 For activity 4, you need to download the JFreeChart library and add it to the "lib" folder. 
 Your files should look like this if you did it all correctly.
 ![image](https://github.com/user-attachments/assets/d637579a-7750-4e16-84a8-a6a412d47360)
 
 
+
+
+Code for activity 3 steps 3 & 6, and activity 4 project code
 Welcome02_List.java output (Step 3 for creating third Observation object)
 
 ![image](https://github.com/user-attachments/assets/957f421c-4c1a-40b1-b847-98a56dae65ef)
