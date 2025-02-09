@@ -71,11 +71,11 @@ public class LeBronStats {
                                                       fgMade, fgAttempted, threeMade, threeAttempted,
                                                       ftMade, ftAttempted, plusMinus, gameScore));
                 } catch (NumberFormatException e) {
-                    System.out.println("Skipping bad row: " + Arrays.toString(values));
+                    System.out.println("skipping row number " + Arrays.toString(values));
                 }
             }
         } catch (IOException e) {
-            System.err.println("Error reading file: " + filename);
+            System.err.println("error reading " + filename);
         }
         return statsList;
     }
