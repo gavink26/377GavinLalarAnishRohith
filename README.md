@@ -6,6 +6,7 @@ For activity 4, you need to download the JFreeChart library and add it to the "l
 that graphed the data.
 
 Your files should look like this if you did it all correctly.
+
 ![image](https://github.com/user-attachments/assets/d637579a-7750-4e16-84a8-a6a412d47360)
 
 
