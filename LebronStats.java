@@ -120,7 +120,7 @@ public class LeBronStats {
     }
 
     public static void printCareerAverages(Map<String, Double> averages) {
-        System.out.println("\n📊 LeBron James Career Averages 📊");
+        System.out.println("\n LeBron James Career Averages");
         for (Map.Entry<String, Double> entry : averages.entrySet()) {
             System.out.printf("%-20s: %.2f\n", entry.getKey(), entry.getValue());
         }
