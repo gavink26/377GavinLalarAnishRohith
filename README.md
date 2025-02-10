@@ -12,7 +12,7 @@ Your files should look like this if you did it all correctly.
 
 
 
-Code for activity 3 steps 3 & 6, and activity 4 project code
+Code output for activity 3 steps 3 & 6
 
 Welcome02_List.java output (Step 3 for creating third Observation object)
 
